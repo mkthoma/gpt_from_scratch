@@ -4,6 +4,11 @@ This repo contains code to train a GPT from scratch. The dataset is taken from t
 
 The trained model has a parameter count of about 160M. The final training loss  was found to be 3.2154.
 
+The Hugging Face implementation can be found [here](https://huggingface.co/spaces/mkthoma/GPT_From_Scratch).
+
+![image](https://github.com/mkthoma/gpt_from_scratch/assets/135134412/d9c2913e-e330-4649-b137-db4abfa6dcf5)
+
+
 The training details can be found in the attached notebooks. The [initial training](https://github.com/mkthoma/gpt_from_scratch/blob/main/Training%20Part%201.ipynb) was stopped when the loss was around 4. 
 
 ![image](https://github.com/mkthoma/gpt_from_scratch/assets/135134412/f0122ba2-b9b3-430d-a6f3-cdde5263a674)
