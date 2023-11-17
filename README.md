@@ -4,14 +4,14 @@ This repo contains code to train a GPT from scratch. The dataset is taken from t
 
 The trained model has a parameter count of about 160M. The final training loss  was found to be 3.2154.
 
-![image](https://github.com/mkthoma/gpt_from_scratch/assets/135134412/23195bda-97ce-4b13-a96b-53552ba2a57e)
-
-The training details can be found in the attached notebooks. The initial training was stopped when the loss was around 4. 
+The training details can be found in the attached notebooks. The [initial training](https://github.com/mkthoma/gpt_from_scratch/blob/main/Training%20Part%201.ipynb) was stopped when the loss was around 4. 
 
 ![image](https://github.com/mkthoma/gpt_from_scratch/assets/135134412/f0122ba2-b9b3-430d-a6f3-cdde5263a674)
 
 
-Using the checkpoint, the training was resumed and stopped when it went below 3.5. 
+Using the checkpoint, the [second part](https://github.com/mkthoma/gpt_from_scratch/blob/main/Training%20Part%202.ipynb) of the training was resumed and stopped when it went below 3.5. 
+
+![image](https://github.com/mkthoma/gpt_from_scratch/assets/135134412/23195bda-97ce-4b13-a96b-53552ba2a57e)
 
 ## Sample Predictions
 
